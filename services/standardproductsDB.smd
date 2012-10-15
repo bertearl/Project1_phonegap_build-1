@@ -1,0 +1,13 @@
+{
+	"methods": [{
+		"name": "getBrickproductById",
+		"operationType": "hqlquery",
+		"parameters": [{
+			"name": "id",
+			"type": "java.lang.Integer"
+		}],
+		"returnType": "com.standardproductsdb.data.Brickproduct"
+	}],
+	"serviceType": "JSON-RPC",
+	"serviceURL": "standardproductsDB.json"
+}
